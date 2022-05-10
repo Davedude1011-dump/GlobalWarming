@@ -6,7 +6,13 @@ body {
   background-image: linear-gradient(rgb(255, 255, 255) 0% 30%, rgb(211, 211, 211) 30% 40%,rgb(211, 211, 211) 40% 45%, rgb(185, 185, 185) 45% 49%, grey 49% 51%, rgb(73, 73, 73) 51% 53%,rgb(49, 49, 49) 53% 57%,rgb(26, 26, 26) 57% 67% ,black 67% 97%, rgb(0, 247, 255) 97% 98%, rgb(0, 140, 255) 98% 99.5%, blue 99.5% 100%);
   background-repeat: no-repeat;
   height: 3500px;
+  width: 100vw;
   overflow-x: hidden;
+  margin: 0;
+div {
+    width: 100vw;
+    height: 100vh;
+}
 }
 body {
   margin: 0;
